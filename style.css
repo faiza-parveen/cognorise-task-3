@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://media.licdn.com/dms/image/C4E12AQH3OCwZZY6wGA/article-cover_image-shrink_720_1280/0/1603139955212?e=2147483647&v=beta&t=Iz19pY69GD-puc8EShtxFKlD63lso5fuoa_UH7qtiEE");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #3498db;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#app {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
